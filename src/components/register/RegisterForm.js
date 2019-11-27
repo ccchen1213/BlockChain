@@ -202,7 +202,7 @@ class RegisterForm extends React.Component {
                             },
                             {
                                 pattern:new RegExp('^1[3456789]\\d{9}$','g'),
-                                message:'用户名必须为字母或者数字'
+                                message:'请输入正确的手机号'
                             }
                             ],
                     })(<Input placeholder={"请输入您的手机号"}/>)}

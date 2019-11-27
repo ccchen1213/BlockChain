@@ -13,6 +13,7 @@ import Directoryblock from "./components/blockchains/directoryblock/Directoryblo
 import Depositdetails from "./components/blockchains/depositdetails/Depositdetails";
 import Progress from "./components/apply/progress/Progress";
 import Damage from "./components/apply/damage/Damage";
+import Apply from "./components/apply/apply/Apply";
 
 ReactDOM.render((
     <HashRouter>
@@ -26,6 +27,7 @@ ReactDOM.render((
         <Route path="/Depositdetails" component={Depositdetails}/>
         <Route path="/Progress" component={Progress}/>
         <Route path="/Damage" component={Damage}/>
+        <Route path="/Apply" component={Apply}/>
     </HashRouter>
     ),document.getElementById('root'));
 

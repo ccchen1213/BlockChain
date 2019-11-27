@@ -24,15 +24,7 @@ class ProContent extends React.Component {
 
     render() {
         return (
-            <div className={"proContent"}>
-                <span className={"bread"}>
-                    <Link to="/Home"> 首页 </Link><Icon type="right" />
-                    <Link to="/Problem">理赔中心</Link><Icon type="right" />常见问题
-                </span>
-                <div className={"proText"}>
-                    <div className={"menus"}>
-                        <Menus/>
-                    </div>
+
                     <div className={"proTitle"}>
                         <div className={"progressImg"}>
                             <img src={send}></img>
@@ -91,8 +83,7 @@ class ProContent extends React.Component {
                             </Panel>
                         </Collapse>
                     </div>
-                </div>
-            </div>
+
         );
     }
 }
